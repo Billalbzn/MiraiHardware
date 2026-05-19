@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MiraiHardware — Montage PC sur mesure, réparation & matériel informatique</title>
+<meta name="description" content="MiraiHardware : montage de PC gaming et bureautique sur mesure, réparation informatique, conseils et vente de matériel. Devis gratuit et rapide.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Fond animé ===== -->
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-glow bg-glow--1" aria-hidden="true"></div>
+<div class="bg-glow bg-glow--2" aria-hidden="true"></div>
+
+<!-- ===== Navigation ===== -->
+<header class="nav" id="nav">
+  <a href="#accueil" class="brand">
+    <span class="brand-mark">◆</span>
+    <span class="brand-text">MIRAI<strong>HARDWARE</strong></span>
+  </a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#prestations">Prestations</a>
+    <a href="#montage">Montage PC</a>
+    <a href="#process">Méthode</a>
+    <a href="#avis">Avis</a>
+    <a href="#contact" class="nav-cta">Devis gratuit</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Ouvrir le menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="accueil">
+  <div class="hero-inner">
+    <p class="eyebrow reveal">⚡ Atelier informatique — Devis sous 24h</p>
+    <h1 class="reveal">
+      Ton PC,<br>
+      <span class="grad">construit pour durer.</span>
+    </h1>
+    <p class="hero-sub reveal">
+      Montage sur mesure, réparation et conseils matériel.
+      MiraiHardware transforme tes idées en machines performantes,
+      fiables et taillées pour ton usage.
+    </p>
+    <div class="hero-actions reveal">
+      <a href="#contact" class="btn btn-primary">Demander un devis</a>
+      <a href="#prestations" class="btn btn-ghost">Voir les prestations</a>
+    </div>
+    <div class="hero-stats reveal">
+      <div class="stat">
+        <span class="stat-num" data-target="120">0</span><span class="stat-plus">+</span>
+        <span class="stat-label">PC montés</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-target="24">0</span><span class="stat-plus">h</span>
+        <span class="stat-label">Délai de devis</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" data-target="100">0</span><span class="stat-plus">%</span>
+        <span class="stat-label">Sur mesure</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Carte flottante "PC" décorative -->
+  <div class="hero-card reveal">
+    <div class="hero-card-glow"></div>
+    <div class="hero-card-inner">
+      <div class="card-row"><span>CPU</span><span class="bar"><i style="--w:88%"></i></span></div>
+      <div class="card-row"><span>GPU</span><span class="bar"><i style="--w:94%"></i></span></div>
+      <div class="card-row"><span>RAM</span><span class="bar"><i style="--w:76%"></i></span></div>
+      <div class="card-row"><span>SSD</span><span class="bar"><i style="--w:82%"></i></span></div>
+      <div class="card-foot">
+        <span class="dot"></span> Système optimisé &amp; testé
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRESTATIONS ===== -->
+<section class="section" id="prestations">
+  <div class="section-head reveal">
+    <p class="kicker">01 — Ce que je fais</p>
+    <h2>Des prestations claires,<br>sans mauvaise surprise.</h2>
+  </div>
+
+  <div class="cards">
+    <article class="card reveal">
+      <div class="card-ico">🛠️</div>
+      <h3>Montage PC sur mesure</h3>
+      <p>Configuration gaming, bureautique ou création. Choix des composants, assemblage soigné et cable management propre.</p>
+      <span class="card-tag">à partir de 60 €</span>
+    </article>
+
+    <article class="card reveal">
+      <div class="card-ico">🔧</div>
+      <h3>Réparation &amp; diagnostic</h3>
+      <p>Panne, lenteurs, surchauffe, écran bleu… Diagnostic complet et remise en état de ta machine.</p>
+      <span class="card-tag">diagnostic offert</span>
+    </article>
+
+    <article class="card reveal">
+      <div class="card-ico">⚙️</div>
+      <h3>Upgrade &amp; optimisation</h3>
+      <p>Ajout de RAM, passage au SSD, nouvelle carte graphique. On booste ce que tu as déjà.</p>
+      <span class="card-tag">devis selon pièces</span>
+    </article>
+
+    <article class="card reveal">
+      <div class="card-ico">💾</div>
+      <h3>Installation logicielle</h3>
+      <p>Windows, pilotes à jour, nettoyage des bloatwares et sauvegarde de tes données importantes.</p>
+      <span class="card-tag">à partir de 35 €</span>
+    </article>
+
+    <article class="card reveal">
+      <div class="card-ico">🧠</div>
+      <h3>Conseil &amp; choix matériel</h3>
+      <p>Tu hésites sur des composants ? Je t'oriente vers le meilleur rapport perf / prix selon ton budget.</p>
+      <span class="card-tag">gratuit avec devis</span>
+    </article>
+
+    <article class="card reveal">
+      <div class="card-ico">🧼</div>
+      <h3>Entretien &amp; dépoussiérage</h3>
+      <p>Nettoyage complet, changement de pâte thermique et contrôle des températures.</p>
+      <span class="card-tag">à partir de 30 €</span>
+    </article>
+  </div>
+</section>
+
+<!-- ===== MONTAGE / OFFRES ===== -->
+<section class="section" id="montage">
+  <div class="section-head reveal">
+    <p class="kicker">02 — Configurations</p>
+    <h2>Trois bases pour<br>partir du bon pied.</h2>
+    <p class="section-lead">Des points de départ indicatifs — chaque config est ensuite ajustée à ton budget et ton usage réel.</p>
+  </div>
+
+  <div class="pricing">
+    <article class="plan reveal">
+      <h3 class="plan-name">Essentiel</h3>
+      <p class="plan-desc">Bureautique, navigation, études</p>
+      <p class="plan-price"><span>dès</span> 550 €</p>
+      <ul class="plan-list">
+        <li>Processeur récent économe</li>
+        <li>16 Go de RAM</li>
+        <li>SSD 500 Go rapide</li>
+        <li>Windows installé &amp; à jour</li>
+        <li>Assemblage + tests</li>
+      </ul>
+      <a href="#contact" class="btn btn-ghost btn-block">Demander ce devis</a>
+    </article>
+
+    <article class="plan plan--featured reveal">
+      <span class="plan-badge">Le plus demandé</span>
+      <h3 class="plan-name">Gaming</h3>
+      <p class="plan-desc">Jeux récents en haute qualité</p>
+      <p class="plan-price"><span>dès</span> 1 100 €</p>
+      <ul class="plan-list">
+        <li>CPU + carte graphique dédiée</li>
+        <li>16 à 32 Go de RAM</li>
+        <li>SSD NVMe 1 To</li>
+        <li>Refroidissement optimisé</li>
+        <li>Cable management soigné</li>
+        <li>Boîtier avec RGB au choix</li>
+      </ul>
+      <a href="#contact" class="btn btn-primary btn-block">Demander ce devis</a>
+    </article>
+
+    <article class="plan reveal">
+      <h3 class="plan-name">Création / Pro</h3>
+      <p class="plan-desc">Montage vidéo, 3D, dev</p>
+      <p class="plan-price"><span>dès</span> 1 600 €</p>
+      <ul class="plan-list">
+        <li>CPU multicœur performant</li>
+        <li>32 Go de RAM ou plus</li>
+        <li>Stockage SSD haute capacité</li>
+        <li>GPU adapté à la création</li>
+        <li>Profil silencieux</li>
+      </ul>
+      <a href="#contact" class="btn btn-ghost btn-block">Demander ce devis</a>
+    </article>
+  </div>
+  <p class="pricing-note reveal">Prix indicatifs hors promotions composants. Le devis final est toujours détaillé et gratuit.</p>
+</section>
+
+<!-- ===== PROCESS ===== -->
+<section class="section" id="process">
+  <div class="section-head reveal">
+    <p class="kicker">03 — Comment ça marche</p>
+    <h2>Simple, en 4 étapes.</h2>
+  </div>
+
+  <div class="steps">
+    <div class="step reveal">
+      <span class="step-num">01</span>
+      <h3>On échange</h3>
+      <p>Tu m'expliques ton besoin, ton usage et ton budget. Tout commence par une discussion.</p>
+    </div>
+    <div class="step reveal">
+      <span class="step-num">02</span>
+      <h3>Je propose</h3>
+      <p>Tu reçois un devis détaillé sous 24h avec la liste des composants et le prix clair.</p>
+    </div>
+    <div class="step reveal">
+      <span class="step-num">03</span>
+      <h3>Je monte</h3>
+      <p>Assemblage soigné, installation système et batterie de tests de stabilité.</p>
+    </div>
+    <div class="step reveal">
+      <span class="step-num">04</span>
+      <h3>Tu profites</h3>
+      <p>Récupération de ta machine prête à l'emploi, avec quelques conseils d'entretien.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== AVIS ===== -->
+<section class="section" id="avis">
+  <div class="section-head reveal">
+    <p class="kicker">04 — Ils ont testé</p>
+    <h2>Ce qu'en pensent<br>mes clients.</h2>
+  </div>
+
+  <div class="reviews">
+    <figure class="review reveal">
+      <div class="stars">★★★★★</div>
+      <blockquote>« PC gaming monté nickel, super propre à l'intérieur et bien plus puissant que ce que j'espérais pour le budget. »</blockquote>
+      <figcaption>— Yanis M.</figcaption>
+    </figure>
+    <figure class="review reveal">
+      <div class="stars">★★★★★</div>
+      <blockquote>« Mon vieux portable rament à mort, passage au SSD et nettoyage : il est comme neuf. Rapide et pas cher. »</blockquote>
+      <figcaption>— Sophie L.</figcaption>
+    </figure>
+    <figure class="review reveal">
+      <div class="stars">★★★★★</div>
+      <blockquote>« Bon conseil sur les composants, pas de blabla inutile. Devis clair et délai respecté. Je recommande. »</blockquote>
+      <figcaption>— Karim B.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section section--contact" id="contact">
+  <div class="contact-box reveal">
+    <div class="contact-text">
+      <p class="kicker">05 — On lance ton projet ?</p>
+      <h2>Parlons de ta<br>future machine.</h2>
+      <p class="section-lead">Décris-moi ton besoin, je te réponds avec un devis gratuit et détaillé sous 24h.</p>
+      <ul class="contact-info">
+        <li><span>✉️</span> contact@miraihardware.fr</li>
+        <li><span>📍</span> Hauts-de-France — déplacement possible</li>
+        <li><span>⏱️</span> Réponse sous 24h ouvrées</li>
+      </ul>
+    </div>
+
+    <form class="contact-form" id="contactForm" novalidate>
+      <div class="field">
+        <label for="name">Nom</label>
+        <input type="text" id="name" name="name" placeholder="Ton nom" required>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="ton@email.fr" required>
+      </div>
+      <div class="field">
+        <label for="subject">Type de demande</label>
+        <select id="subject" name="subject">
+          <option>Montage PC sur mesure</option>
+          <option>Réparation / diagnostic</option>
+          <option>Upgrade / optimisation</option>
+          <option>Conseil matériel</option>
+          <option>Autre</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="message">Ton message</label>
+        <textarea id="message" name="message" rows="4" placeholder="Décris ton besoin, ton budget, ton usage…" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-block">Envoyer ma demande</button>
+      <p class="form-note" id="formNote" hidden>✅ Merci ! Ta demande est prête — ton client mail va s'ouvrir.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <span class="brand-mark">◆</span>
+      <span class="brand-text">MIRAI<strong>HARDWARE</strong></span>
+      <p>Montage, réparation et conseil informatique. Des machines fiables, pensées pour toi.</p>
+    </div>
+    <nav class="footer-nav">
+      <h4>Navigation</h4>
+      <a href="#prestations">Prestations</a>
+      <a href="#montage">Montage PC</a>
+      <a href="#process">Méthode</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <nav class="footer-nav">
+      <h4>Infos</h4>
+      <a href="mentions.html">Mentions légales</a>
+      <a href="#contact">Devis gratuit</a>
+      <a href="mailto:contact@miraihardware.fr">Email</a>
+    </nav>
+  </div>
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> MiraiHardware — Tous droits réservés.</p>
+    <p>Site conçu avec ◆ par Billal</p>
+  </div>
+</footer>
+
+<a href="#accueil" class="to-top" id="toTop" aria-label="Remonter">↑</a>
+
+<script src="script.js"></script>
+</body>
+</html>
